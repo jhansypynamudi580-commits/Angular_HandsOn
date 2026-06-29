@@ -1,0 +1,57 @@
+h2{
+
+    text-align:center;
+
+}
+
+form{
+
+    width:400px;
+    margin:auto;
+
+}
+
+input,
+select{
+
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    margin-bottom:10px;
+
+}
+
+button{
+
+    padding:8px 18px;
+    margin-right:10px;
+
+}
+
+span{
+
+    color:red;
+    font-size:13px;
+
+}
+
+.ng-invalid.ng-touched{
+
+    border:2px solid red;
+
+}
+
+.ng-valid.ng-touched{
+
+    border:2px solid green;
+
+}
+
+div{
+
+    color:green;
+    text-align:center;
+    margin-top:20px;
+    font-weight:bold;
+
+}
