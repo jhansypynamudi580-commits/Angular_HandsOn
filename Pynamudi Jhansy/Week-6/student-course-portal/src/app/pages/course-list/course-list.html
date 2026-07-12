@@ -1,0 +1,13 @@
+<h2>Available Courses</h2>
+
+<div *ngFor="let course of courses">
+
+  <h3>{{ course.name }}</h3>
+
+  <p>Credits: {{ course.credits }}</p>
+
+  <button (click)="toggleEnrollment(course)">
+    {{ isEnrolled(course) ? 'Unenroll' : 'Enroll' }}
+  </button>
+
+</div>

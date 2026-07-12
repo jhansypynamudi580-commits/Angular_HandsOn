@@ -1,0 +1,13 @@
+<h2>Student Profile</h2>
+
+<h3>Enrolled Courses</h3>
+
+<ul>
+  <li *ngFor="let course of enrolledCourses">
+
+    <p><b>Course Name:</b> {{ course.name }}</p>
+    <p><b>Course ID:</b> {{ course.id }}</p>
+    <p><b>Code:</b> {{ course.code }}</p>
+
+  </li>
+</ul>

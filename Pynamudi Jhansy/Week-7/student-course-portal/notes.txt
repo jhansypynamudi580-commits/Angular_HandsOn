@@ -1,0 +1,33 @@
+Angular Project File Explanations
+
+angular.json
+Configuration file for Angular CLI. It contains project settings, build configuration, serve options, and workspace information.
+
+tsconfig.json
+Main TypeScript compiler configuration file. It defines TypeScript compilation rules for the project.
+
+tsconfig.app.json
+TypeScript configuration specific to the Angular application source files.
+
+package.json
+Contains project dependencies, Angular packages, and npm scripts used to run and build the application.
+
+src/main.ts
+Entry point of the Angular application. It bootstraps the root component or application configuration.
+
+src/app/app.ts (or app.config.ts)
+Contains application configuration and root-level setup in standalone Angular applications.
+
+src/app/app.component.ts (or app.ts)
+Root component of the Angular application. It is the main component that loads other components.
+
+src/index.html
+Main HTML file loaded by the browser. Angular application is rendered inside this page.
+
+Production Build Budgets
+
+maximumWarning
+Displays a warning when the generated bundle size crosses the specified limit.
+
+maximumError
+Stops the production build when the generated bundle size exceeds the allowed limit.

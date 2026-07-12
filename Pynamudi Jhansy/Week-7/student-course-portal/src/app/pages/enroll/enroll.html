@@ -1,0 +1,68 @@
+<h2>Enrollment Form</h2>
+
+<form (ngSubmit)="submitForm()">
+
+  <label>Student Name</label>
+  <br>
+  <input 
+    type="text"
+    [(ngModel)]="studentName"
+    name="studentName"
+  >
+
+  <br><br>
+
+
+  <label>Student Email</label>
+  <br>
+  <input
+    type="email"
+    [(ngModel)]="email"
+    name="email"
+  >
+
+  <br><br>
+
+
+  <label>Course ID</label>
+  <br>
+  <input
+    type="text"
+    [(ngModel)]="courseId"
+    name="courseId"
+  >
+
+  <br><br>
+
+
+  <label>Semester</label>
+  <br>
+
+  <select 
+    [(ngModel)]="semester"
+    name="semester">
+
+    <option>Odd</option>
+    <option>Even</option>
+
+  </select>
+
+  <br><br>
+
+
+  <input
+    type="checkbox"
+    [(ngModel)]="agree"
+    name="agree">
+
+  I agree to terms
+
+
+  <br><br>
+
+
+  <button type="submit">
+    Submit
+  </button>
+
+</form>

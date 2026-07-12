@@ -1,0 +1,21 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { EnrollmentService } from '../../services/enrollment.service';
+
+@Component({
+  selector: 'app-student-profile',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './student-profile.html',
+  styleUrls: ['./student-profile.css']
+})
+export class StudentProfile {
+
+  enrolledCourses: any[] = [];
+
+  constructor(private enrollService: EnrollmentService) {}
+
+  ngOnInit() {
+    this.enrolledCourses = this.enrollService.getEnrolledCourses(); // ✅ FIXED
+  }
+}

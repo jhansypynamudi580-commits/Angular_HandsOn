@@ -1,0 +1,30 @@
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.field {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field input, .field select {
+  padding: 6px;
+}
+
+.terms-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.course-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}

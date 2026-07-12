@@ -1,0 +1,14 @@
+.home {
+  font-family: Arial;
+  padding: 20px;
+}
+
+button {
+  padding: 8px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.search-box {
+  margin-top: 15px;
+}

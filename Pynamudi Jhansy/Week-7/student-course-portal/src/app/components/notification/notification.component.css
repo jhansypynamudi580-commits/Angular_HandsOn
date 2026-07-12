@@ -1,0 +1,14 @@
+.notification {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.notification h3 {
+  margin: 0;
+}
+
+.notification p {
+  margin-top: 8px;
+}

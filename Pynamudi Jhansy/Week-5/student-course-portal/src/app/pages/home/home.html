@@ -1,0 +1,25 @@
+<div class="home">
+
+  <h2>Student Course Portal</h2>
+
+  <p>Welcome to the Student Course Portal.</p>
+
+  <button routerLink="/enroll-reactive">Enroll Now</button>
+
+  <div class="search-box">
+
+    <input [(ngModel)]="searchText" placeholder="Search course">
+
+    <p *ngIf="searchText">
+      Searching for: {{ searchText }}
+    </p>
+
+    <p *ngIf="!searchText">
+      Start typing to search courses...
+    </p>
+
+  </div>
+
+  <p>Available Courses: 12</p>
+
+</div>
